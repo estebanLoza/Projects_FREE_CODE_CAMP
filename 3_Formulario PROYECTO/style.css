@@ -1,6 +1,8 @@
 body{
     width: 100%;
     margin: 0;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
 
 
@@ -18,4 +20,42 @@ label{
                                 para darles un poco de separación.*/
     margin: 0.5rem 0;
 }
+
+
+#title, #description{
+    text-align: center;
+    font-family: Tahoma;
+}
+
+p, h1{
+    color: gainsboro;
+}
+
+
+
+.grupo-forms{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(56, 26, 85, 0.699);
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 1rem;
+
+}
+
+
+label{
+    font-family: 'Lucida Sans';
+    color: gainsboro
+
+}
+
+fieldset{
+    border:none;
+}
+
+
+
+
 
